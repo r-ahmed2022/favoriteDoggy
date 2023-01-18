@@ -1,0 +1,144 @@
+#container {
+    width: 350px;
+    max-width: 400px;
+    height: 100vh;
+    box-shadow: -1px -1px 2px 2px #cccccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+.navbar {
+    width: 98%;
+    height: 7%;
+    margin: 2px 0;
+    padding: 0 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dog-dp {
+    position: relative;
+    width: 98%;
+    height: 78%;
+    margin: 2px 3px;
+}
+
+.footer-section {
+    width: 98%;
+    height: 13%;
+    margin: 2px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.logo {
+    width: 40px;
+    height: 25px;
+}
+
+.dp {
+    width: 100%;
+    height: inherit;
+    border-radius: 5px;
+}
+
+.dog-info {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    visibility: inherit;
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+#dp-home {
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.icons-footer {
+   width: 20px;
+   height: 20px; 
+}
+
+.btn {
+    width: 60px;
+    margin: 30px;
+    padding: 4px 8px;
+    background: #fff;
+    border: none;
+    box-shadow: -1px -1px 2px 2px #ccc;
+    border-radius: 50px;
+}
+
+#like-not {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    
+}
+
+#like {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    
+}
+.reject {
+    width: 90px;
+    height: 30px;
+    transform: rotate(-27deg);
+}
+
+.accept {
+    width: 90px;
+    height: 30px;
+    transform: rotate(-27deg);
+}
+
+#heart:hover {
+    background: #DBFFF4;
+}
+
+#cross:hover {
+    background: #FFE7EF ;
+}
+
+.End {
+    width: 100%;
+    height: 100vh;
+    background: #cccccc;
+    color: green;
+}
+
+
